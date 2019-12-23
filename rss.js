@@ -5,8 +5,8 @@ const path = require('path')
 function generate() {
   const feed = new RSS({
     title: 'Linghao’s Blog',
-    site_url: 'https://linghao.io',
-    feed_url: 'https://linghao.io/feed.xml'
+    site_url: 'http://jonxia.tech',
+    feed_url: 'http://jonxia.tech/feed.xml'
   })
 
   const content = []
